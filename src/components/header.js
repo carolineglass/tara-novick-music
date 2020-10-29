@@ -4,7 +4,7 @@ import headerStyles from './header.module.scss'
 
 const Header = () => {
     return (
-        <header>
+        <header className={headerStyles.header}>
             <h1><Link className={headerStyles.name} to="/">Tara Novick</Link></h1>
             <nav>
                 <ul className={headerStyles.ul}>
