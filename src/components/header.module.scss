@@ -1,18 +1,19 @@
 .link {
     text-decoration: none;
-    color: grey;
-    font-size: 0.9rem;
-    margin-right: 1.3rem;
+    color: rgb(186, 181, 181);
+    font-size: 1.3rem;
+    margin-right: 0.5rem;
 }
 
 .link:hover {
-    color: #3e4d54;
+    color:#5E747F;;
 }
 
 .ul {
     display: flex;
     list-style-type: none;
     margin: 0;
+    justify-content: center;
 }
 
 .name {
@@ -23,8 +24,9 @@
 
 .header {
     padding: 1rem 0 3rem;
+    text-align: center;
 }
 
 .active-nav-item {
-    color: black;
+    color:#5E747F;
 }

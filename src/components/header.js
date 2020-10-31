@@ -14,22 +14,22 @@ const Header = () => {
                 <ul className={headerStyles.ul}>
                     <li>
                         <Link className={headerStyles.link} activeClassName={headerStyles.activeNavItem} to="/">
-                            Home
+                            Home /
                         </Link>
                     </li>
                     <li>
                         <Link className={headerStyles.link} activeClassName={headerStyles.activeNavItem} to="/music">
-                            Music
+                            Music /
                         </Link>
                     </li>
                     <li>
                         <Link className={headerStyles.link} activeClassName={headerStyles.activeNavItem} to="/gallery">
-                            Gallery
+                            Gallery /
                         </Link>
                     </li>
                     <li>
                         <Link className={headerStyles.link} activeClassName={headerStyles.activeNavItem} to="/about">
-                            About
+                            About /
                         </Link>
                     </li>
                     <li>
@@ -39,6 +39,7 @@ const Header = () => {
                     </li>
                 </ul>
             </nav>
+            <hr style={{height: '1px', backgroundColor: "grey"}}></hr>
         </header>
     )
 }

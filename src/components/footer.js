@@ -3,7 +3,8 @@ import React from 'react'
 const Footer = () => {
     return (
         <footer>
-            <p>Tara Novick, © 2020</p>
+            <hr></hr>
+            <p style={{textAlign: "center"}}>Tara Novick, © 2020</p>
         </footer>
     )
 }
