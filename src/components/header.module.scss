@@ -1,7 +1,7 @@
 .link {
     text-decoration: none;
     color: rgb(186, 181, 181);
-    font-size: 1.3rem;
+    font-size: 1rem;
     margin-right: 0.5rem;
 }
 
@@ -17,14 +17,15 @@
 }
 
 .name {
-    color: #5E747F; 
-    font-size: 4rem;
+    color: #5e747f; 
+    font-size: 3rem;
     text-decoration: none;
 }
 
 .header {
-    padding: 1rem 0 3rem;
+    padding: 1rem 0 1rem;
     text-align: center;
+    background-color: rgba(179, 168, 169, 0.201);
 }
 
 .active-nav-item {

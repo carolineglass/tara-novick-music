@@ -2,9 +2,8 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <footer>
-            <hr></hr>
-            <p style={{textAlign: "center"}}>Tara Novick, © 2020</p>
+        <footer style={{backgroundColor: "lightgray", width: "100%"}}>
+            <p style={{textAlign: "center", fontSize: "small", marginTop: "1rem"}}>Tara Novick © 2020</p>
         </footer>
     )
 }

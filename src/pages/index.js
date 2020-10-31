@@ -8,7 +8,6 @@ const IndexPage = () => {
     <div>
       <Layout>
         <div className={homeStyles.homeDiv}>
-        <h1>Tara Novick</h1>
         <img src={TaraImg}></img>
         </div>
       </Layout>

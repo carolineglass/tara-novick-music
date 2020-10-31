@@ -10,6 +10,7 @@ const Header = () => {
                     Tara Novick
                 </Link>
             </h1>
+
             <nav className={headerStyles.nav}>
                 <ul className={headerStyles.ul}>
                     <li>
@@ -18,18 +19,18 @@ const Header = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link className={headerStyles.link} activeClassName={headerStyles.activeNavItem} to="/music">
-                            Music /
+                        <Link className={headerStyles.link} activeClassName={headerStyles.activeNavItem} to="/about">
+                            About /
                         </Link>
                     </li>
                     <li>
                         <Link className={headerStyles.link} activeClassName={headerStyles.activeNavItem} to="/gallery">
-                            Gallery /
+                            Work /
                         </Link>
                     </li>
                     <li>
-                        <Link className={headerStyles.link} activeClassName={headerStyles.activeNavItem} to="/about">
-                            About /
+                        <Link className={headerStyles.link} activeClassName={headerStyles.activeNavItem} to="/music">
+                            Music /
                         </Link>
                     </li>
                     <li>
@@ -39,7 +40,6 @@ const Header = () => {
                     </li>
                 </ul>
             </nav>
-            <hr style={{height: '1px', backgroundColor: "grey"}}></hr>
         </header>
     )
 }

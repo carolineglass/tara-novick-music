@@ -5,7 +5,7 @@ import contactStyles from '../styles/contact.module.scss'
 const ContactPage = () => {
     return (
         <Layout>
-            <h1>Let's work together</h1>
+            <h1>Contact Form</h1>
                 {/*<p><a href="https://www.facebook.com/taranovickmusic/" target="_blank">facebook</a></p>*/}
             {/*<div className={contactStyles.container}>
                 <div className={contactStyles.imgContainer}>
