@@ -5,13 +5,13 @@ import homeStyles from '../styles/homepage.module.scss'
 
 const IndexPage = () => {
   return (
-    <div>
       <Layout>
         <div className={homeStyles.homeDiv}>
-        <img src={TaraImg}></img>
+          <h1>TARA NOVICK</h1>
+          <p>Musician/Composer</p>
+          {/*<img src={TaraImg}></img>*/}
         </div>
       </Layout>
-    </div>
   )
 }
 

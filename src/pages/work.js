@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 
-const GalleryPage = () => {
+const WorkPage = () => {
     return (
         <Layout>
             <h1>My Work</h1>
@@ -13,4 +13,4 @@ const GalleryPage = () => {
     )
 }
 
-export default GalleryPage
+export default WorkPage
