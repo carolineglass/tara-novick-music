@@ -5,6 +5,8 @@ import headerStyles from './header.module.scss'
 const Header = () => {
     return (
         <header className={headerStyles.header}>
+            <div className={headerStyles.divContainer}>
+
             <h1>
                 <Link className={headerStyles.name} to="/">
                     Tara Novick
@@ -25,7 +27,7 @@ const Header = () => {
                     </li>
                     <li>
                         <Link className={headerStyles.link} activeClassName={headerStyles.activeNavItem} to="/work">
-                            Work /
+                            Projects /
                         </Link>
                     </li>
                     <li>
@@ -40,6 +42,8 @@ const Header = () => {
                     </li>
                 </ul>
             </nav>
+            </div>
+
         </header>
     )
 }

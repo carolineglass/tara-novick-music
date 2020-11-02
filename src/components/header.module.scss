@@ -1,12 +1,12 @@
 .link {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     margin-right: 0.5rem;
 }
 
 .link:hover {
-    color:#5E747F;;
+    color:#14445c;
 }
 
 .ul {
@@ -16,27 +16,37 @@
     justify-content: center;
 }
 
+.ul li {
+    margin: auto;
+}
+
 .name {
-    color: #5e747fa8; 
+    color:rgba(255, 255, 255, 0.74);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 2rem;
     text-decoration: none;
+    margin: 0.5rem;
 }
 
 .header {
-    padding: 0.5rem 0 0rem;
     text-align: center;
-    background-color: lightgray;
+    background-color:rgba(165, 42, 42, 0.687);
 }
 
 .header h1 {
-    margin: 0;
+    margin: 0rem;
 }
 
 .active-nav-item {
-    color:#5E747F;
+    color:#14445c;
 }
 
 .nav {
     display: flex;
     justify-content: center;
+}
+
+.div-container {
+    display: flex;
+    justify-content: space-between;
 }

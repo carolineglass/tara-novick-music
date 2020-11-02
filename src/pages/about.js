@@ -7,6 +7,8 @@ const AboutPage = () => {
         <Layout>
             <h1>About Tara</h1>
             <p><Link to="/contact">Let's work together</Link></p>
+            <p>Bio</p>
+            <p>Quote</p>
         </Layout>
     )
 }
