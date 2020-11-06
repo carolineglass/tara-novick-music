@@ -1,18 +1,18 @@
 .link {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color:#14445c;
     font-size: 0.8rem;
     margin-right: 0.5rem;
 }
 
 .link:hover {
-    color:#14445c;
+    color:#7e9fb0;
 }
 
 .ul {
     display: flex;
     list-style-type: none;
-    margin: 0;
+    margin: 0 1rem;
     justify-content: center;
 }
 
@@ -21,24 +21,23 @@
 }
 
 .name {
-    color:rgba(255, 255, 255, 0.74);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#14445c;
     font-size: 2rem;
+    font-weight: 200;
     text-decoration: none;
-    margin: 0.5rem;
+    margin: 1rem;
 }
 
 .header {
     text-align: center;
-    background-color:rgba(165, 42, 42, 0.687);
 }
 
 .header h1 {
-    margin: 0rem;
+    margin: 0.3rem;
 }
 
 .active-nav-item {
-    color:#14445c;
+    color:#7e9fb0;
 }
 
 .nav {

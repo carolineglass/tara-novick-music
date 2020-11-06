@@ -1,27 +1,36 @@
 .home-div {
-    background: url('../images/tara-main.jpeg');
-    // background-attachment: fixed;
-    background-position: 75% 25%;
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  border: dashed;
 }
 
-.home-div h1 {
-    font-size: 4rem;
+.home-div img {
+    width: 40%;
 }
 
-.home-div h1, p {
+.content {
+    background-color: rgba(136, 148, 171, 0.598);
     color: white;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
 }
 
-.home-div p {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin: 0.2rem;
+.content > h1 {
+    color: rgb(49, 55, 67);
+    margin: 20px;
 }
+
+// .name {
+//     color: white;
+//     text-align: center;
+//     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+//     font-weight: normal;
+//     font-size: 4rem;
+//     opacity: 1;
+// }
+
+// .quote {
+//     font-size: 1rem;
+//     color: white;
+//     text-align: center;
+//     margin: 0 100px;
+//     opacity: 1;
+// }
