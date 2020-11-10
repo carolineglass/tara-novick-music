@@ -1,5 +1,8 @@
 .home-div {
   border: dashed;
+  background-color:rgba(49, 55, 67, 0.721);
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .home-div img {
@@ -7,7 +10,7 @@
 }
 
 .content {
-    background-color: rgba(136, 148, 171, 0.598);
+    background-color: rgba(136, 148, 171, 0.653);
     color: white;
     display: flex;
     flex-direction: row;

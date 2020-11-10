@@ -7,7 +7,7 @@ const IndexPage = () => {
   return (
       <Layout>
         <div className={homeStyles.homeDiv}>
-          <img src={TaraImg} alt="photo of tara"></img>
+          <img src={TaraImg} alt="tara with guitar"></img>
           <div className={homeStyles.content}>
           <h1 className={homeStyles.name}>TARA NOVICK</h1>
             <div className={homeStyles.quote}>

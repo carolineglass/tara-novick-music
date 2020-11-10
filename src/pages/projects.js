@@ -6,10 +6,9 @@ const ProjectPage = () => {
         <Layout>
             <h1>Projects</h1>
             <div>
-            <p>hey</p>
-            <p>Jingles</p>
-            <p>Voice Overs</p>
-            <p>Film/TV/Commercial Score</p>
+                <p>Jingles</p>
+                <p>Voice Overs</p>
+                <p>Film/TV/Commercial Score</p>
             </div>
             
         </Layout>

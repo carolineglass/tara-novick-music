@@ -1,14 +1,27 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
+import AboutImg from '../images/tara-about.png'
 
 const AboutPage = () => {
     return (
         <Layout>
-            <h1>About Tara</h1>
-            <p><Link to="/contact">Let's work together</Link></p>
-            <p>Bio</p>
-            <p>Quote</p>
+            <img src={AboutImg} style={{width: "50%"}}></img> 
+            <p>Tara Novick was conceived during an acid trip in Big Sur at the end of the 1960’s, 
+            a fitting start to a life in rock and roll. 
+            His early childhood years were then spent vagabonding with his parents in 
+            Europe and Northern Africa, and in Marakesh, Morrocco, at age four, Tara got his first 
+            instrument, a three-stringed berber guitar with a goat-skinned body.</p>
+
+            <p>The family eventually moved back to the United States, to Southern California, 
+            and when Tara was ten his dad gave him his first acoustic guitar, a 1950’s Gibson.</p>
+
+            <p>The first song Tara then learned to play was Ray Charles’ 
+            “What I Say” and he was hooked! Soon thereafter, Tara started writing his own 
+            songs and had his first band at age twelve, Toxic Four (comprised of three neighborhood 
+            girls and Tara). They used a wheelbarrow to get to local gigs, playing for chips and Coca Cola.</p>
+
+            <p><Link to="/contact">Contact Me</Link></p>
         </Layout>
     )
 }
