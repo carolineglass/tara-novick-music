@@ -9,26 +9,22 @@
     padding: 3rem;
 }
 
-.img {
-    
-}
-
 .aboutText {
     margin: 50px;
 }
 
 .aboutText > p {
-    color: white;
-    font-size: 15px;
+    color:rgba(255, 255, 255, 0.7);
 }
 
 .aboutText > p > a {
     color: burlywood;
     text-decoration: none;
-    font-size: larger;
-    text-align: left;
+    border-bottom: 2px solid;
+    margin-top: 20px;
+    display: inline-block;
 }
 
 .aboutText > p > a:hover {
-    color: white;
+    color: rgba(222, 184, 135, 0.598);
 }

@@ -13,7 +13,7 @@ const Header = () => {
         }
     `)
     return (
-        <header className={headerStyles.header}>
+        <header>
             <div className={headerStyles.divContainer}>
 
             <h1>
@@ -52,7 +52,6 @@ const Header = () => {
                 </ul>
             </nav>
             </div>
-
         </header>
     )
 }

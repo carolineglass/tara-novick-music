@@ -5,44 +5,37 @@
   margin: 20px 20px 0px 20px;
 }
 
-.home-div img {
-    width: 40%;
-    padding: 50px;
+.img-container {
+  padding: 3rem;
 }
 
 .content {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    padding: 100px;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 3rem;
 }
 
 .content > h1 {
-  font-size: 75px;
-  font-weight: 200;
+  font-size: 4rem;
+  font-weight: 100;
 }
 
 .content > h1,
 .titles {
-    color: burlywood;
-    text-align: center;
+  color: burlywood;
+  text-align: center;
 }
 
+.link {
+  text-decoration: none;
+  border-bottom: 2px solid;
+  margin-top: 20px;
+  display: inline-block;
+}
 
+.link:visited {
+  color: burlywood;
+}
 
-// .name {
-//     color: white;
-//     text-align: center;
-//     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-//     font-weight: normal;
-//     font-size: 4rem;
-//     opacity: 1;
-// }
-
-// .quote {
-//     font-size: 1rem;
-//     color: white;
-//     text-align: center;
-//     margin: 0 100px;
-//     opacity: 1;
-// }
+.link:hover {
+  color: rgba(222, 184, 135, 0.598);
+}
