@@ -1,16 +1,13 @@
 import React from 'react'
 import Layout from '../components/layout'
+import Project from '../templates/project'
 
 const ProjectPage = () => {
     return (
         <Layout>
-            <h1>Projects</h1>
             <div>
-                <p>Jingles</p>
-                <p>Voice Overs</p>
-                <p>Film/TV/Commercial Score</p>
-            </div>
-            
+                <Project />
+            </div>  
         </Layout>
     )
 }

@@ -9,7 +9,7 @@ const AboutPage = () => {
         <Layout>
         <div className={aboutStyles.container}>
             <div className={aboutStyles.imgContainer}>
-                <img src={AboutImg} className={aboutStyles.img}></img> 
+                <img src={AboutImg} className={aboutStyles.img} alt="tara in concert"></img> 
             </div>
             <div className={aboutStyles.aboutText}>
                 <p>Tara Novick was conceived during an acid trip in Big Sur at the end of the 1960’s, 
@@ -26,7 +26,7 @@ const AboutPage = () => {
                 songs and had his first band at age twelve, Toxic Four (comprised of three neighborhood 
                 girls and Tara). They used a wheelbarrow to get to local gigs, playing for chips and Coca Cola.</p>
 
-                <p style={{textAlign: "center"}}><Link to="/contact">Contact Me</Link></p>
+                <p><Link to="/contact">Contact Me</Link></p>
             </div>
         </div>
         </Layout>

@@ -13,8 +13,8 @@ const Footer = () => {
     `)
 
     return (
-        <footer style={{border: "solid black"}}>
-            <p style={{textAlign: "center", fontSize: "small", marginTop: "1rem", color: "black"}}> Created by {data.site.siteMetadata.author} © 2020</p>
+        <footer>
+            <p style={{textAlign: "center", fontSize: "small", marginTop: "1rem", color: "black"}}> Site by {data.site.siteMetadata.author} © 2020</p>
         </footer>
     )
 }
