@@ -26,27 +26,27 @@ const Header = () => {
                 <ul className={headerStyles.ul}>
                     <li>
                         <Link className={headerStyles.link} activeClassName={headerStyles.activeNavItem} to="/">
-                            Home /
+                            HOME
                         </Link>
                     </li>
                     <li>
                         <Link className={headerStyles.link} activeClassName={headerStyles.activeNavItem} to="/about">
-                            About /
+                            ABOUT
                         </Link>
                     </li>
                     <li>
                         <Link className={headerStyles.link} activeClassName={headerStyles.activeNavItem} to="/projects">
-                            Projects /
+                            PROJECTS
                         </Link>
                     </li>
                     <li>
                         <Link className={headerStyles.link} activeClassName={headerStyles.activeNavItem} to="/music">
-                            Music /
+                            MUSIC
                         </Link>
                     </li>
                     <li>
                         <Link className={headerStyles.link} activeClassName={headerStyles.activeNavItem} to="/contact">
-                            Contact
+                            CONTACT
                         </Link>
                     </li>
                 </ul>

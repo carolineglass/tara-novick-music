@@ -9,6 +9,10 @@
   padding: 3rem;
 }
 
+.img-container img {
+  border: 1px solid burlywood;
+}
+
 .content {
   color: rgba(255, 255, 255, 0.7);
   padding: 3rem;
@@ -17,9 +21,10 @@
 .content > h1 {
   font-size: 4rem;
   font-weight: 100;
+  border-bottom: 2px solid burlywood;
+  color: burlywood;
 }
 
-.content > h1,
 .titles {
   color: burlywood;
   text-align: center;
