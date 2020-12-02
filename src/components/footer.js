@@ -14,7 +14,7 @@ const Footer = () => {
 
     return (
         <footer>
-            <p style={{textAlign: "center", fontSize: "small", marginTop: "1rem", color: "black"}}> Site by {data.site.siteMetadata.author} © 2020</p>
+            <p style={{textAlign: "center", fontSize: "small", marginTop: "1rem"}}> Site by {data.site.siteMetadata.author} © 2020</p>
         </footer>
     )
 }

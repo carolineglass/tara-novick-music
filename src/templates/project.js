@@ -8,16 +8,17 @@ const Project = () => {
     return (
         <div>     
             <section className={projectStyles.section}>
-                <h1>Jingles</h1>
+                <h1>Circle K</h1>
             <div className={projectStyles.container}>
                 <div className={projectStyles.content1}>
-                    <h3>Project Title</h3>
+                    <h3>Circle K</h3>
                     <p>
                     commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient 
                     montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, 
                     sem. Nulla consequat massa quis enim. Donec pede justo, fringilla 
                     vel, aliquet nec, vulputate eget, arcu.
                     </p>
+                    <h3>SOUNDCLOUD EMBED</h3>
                 </div>
                 <div className={projectStyles.content2}>
                     <h3>Youtube of project</h3>

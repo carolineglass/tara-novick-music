@@ -1,24 +1,18 @@
 .container { 
     display: flex;
-    flex-direction: row;
-    margin: 20px 20px 0px 20px;
-    // background-color: rgb(49, 55, 67);
+    flex-direction: row-reverse;
+    height: 93vh;
+    // margin: 20px 20px 0px 20px;
 }
 
 .img-container {
-    padding: 3rem;
-}
-
-.img-container img {
-    border: 1px solid burlywood;
+    margin: 50px 50px 50px 0;
+    padding: 3em;
 }
 
 .aboutText {
-    margin: 50px;
-}
-
-.aboutText > p {
-    color:rgba(255, 255, 255, 0.7);
+    margin: 50px 0 50px 50px;
+    padding: 3em;
 }
 
 .aboutText > p > a {
