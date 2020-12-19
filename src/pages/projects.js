@@ -1,11 +1,20 @@
 import React from 'react'
 import Layout from '../components/layout'
-import projectStyles from '../styles/project.module.scss'
+import styled from "styled-components"
+
+const Container = styled.div`
+  margin: 3rem auto;
+  max-width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;`
 
 const ProjectPage = () => {
+
     return (
     <Layout>
-        <div>     
+        <Container>   
             <section>
                 <h1>Circle K</h1>
                 <div>
@@ -48,7 +57,7 @@ const ProjectPage = () => {
             <section>
                 <h1>Film/TV Score</h1>
             </section>
-        </div>
+        </Container>  
     </Layout>
     )
 }

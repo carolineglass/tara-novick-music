@@ -9,5 +9,8 @@ module.exports = {
     title: 'TARA NOVICK',
     author: 'Caroline Glass'
   },
-  plugins: [`gatsby-plugin-sass`],
+  plugins: [
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-styled-components`
+  ],
 }
