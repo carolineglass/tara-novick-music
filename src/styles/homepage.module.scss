@@ -1,3 +1,5 @@
+
+
 .home-div {
   display: flex;
   margin: 20px 20px 0px 20px;
@@ -8,16 +10,21 @@
   padding: 3rem;
 }
 
-.content {
-  padding: 3rem;
+.img-container > img {
+  height: 600px;
 }
 
-.content > h1 {
-  font-size: 4rem;
-  font-weight: 100;
-  border-bottom: 2px solid burlywood;
-  color: black;
+.content {
+  padding: 3rem;
+
+  h1 {
+    font-size: 4rem;
+    font-weight: 100;
+    border-bottom: 2px solid burlywood;
+    color: black;
+  }
 }
+
 
 .titles {
   color: rgb(0, 0, 0);
