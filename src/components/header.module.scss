@@ -1,14 +1,12 @@
-$border: 1px solid black;
 $color: #14445c;
 $color-hover: burlywood;
 $color-active: #7e9fb0;
+$header-font: 'East Sea Dokdo';
 
 .div-container {
     display: flex;
     justify-content: space-between;
     height: 10vh;
-    background-color: white;
-    border: $border;
     
     h1 {
         align-items: center;
@@ -16,10 +14,16 @@ $color-active: #7e9fb0;
 
         .name {
             color: $color;
-            font-size: 2.5rem;
+            font-family: $header-font;
+            font-weight: 900;
+            font-size: 3rem;
             letter-spacing: 0.5rem;
             text-decoration: none;
             padding-left: 3rem;
+        }
+
+        .name:hover {
+            color: $color-hover;
         }
     }
 
@@ -33,12 +37,14 @@ $color-active: #7e9fb0;
 .link {
     text-decoration: none;
     color: $color;
-    font-size: 0.9rem;
+    font-size: 1.5em;
+    font-family: $header-font;
+    font-weight: 100;
 }
 
-.name:hover,
 .link:hover {
-    color: $color-hover;
+    border-bottom: 3px solid $color-active;
+    padding-bottom: 3px;
 }
 
 .ul {
@@ -54,6 +60,8 @@ $color-active: #7e9fb0;
 
         .active-nav-item {
             color: $color-active;
+            border-bottom: 3px solid $color-active;
+            padding-bottom: 3px;
         }
     }
 }
