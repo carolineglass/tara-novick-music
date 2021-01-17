@@ -1,6 +1,5 @@
 $color: #14445c;
-$color-hover: burlywood;
-$color-active: #7e9fb0;
+$color-active-hover: #7e9fb0;
 $header-font: 'East Sea Dokdo';
 
 .div-container {
@@ -20,16 +19,18 @@ $header-font: 'East Sea Dokdo';
             letter-spacing: 0.5rem;
             text-decoration: none;
             padding-left: 3rem;
-        }
+            transition: color 200ms ease-in-out;
 
-        .name:hover {
-            color: $color-hover;
-        }
+            &:hover {
+                color: $color-active-hover;
+            }
+        }     
     }
 
     .nav {
         display: flex;
         justify-content: center;
+        padding: 30px 40px;
     }
 
 }
@@ -37,14 +38,16 @@ $header-font: 'East Sea Dokdo';
 .link {
     text-decoration: none;
     color: $color;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-family: $header-font;
     font-weight: 100;
-}
+    transition: color, border 200ms ease-in-out;
 
-.link:hover {
-    border-bottom: 3px solid $color-active;
-    padding-bottom: 3px;
+    &:hover {
+        color: $color-active-hover;
+        border-bottom: 2px solid $color-active-hover;
+        padding-bottom: 10px;
+    }
 }
 
 .ul {
@@ -55,17 +58,30 @@ $header-font: 'East Sea Dokdo';
     justify-content: center;
     align-items: center;
 
-    li {
+    li:not(:last-child) {
         padding-right: 3rem;
 
         .active-nav-item {
-            color: $color-active;
-            border-bottom: 3px solid $color-active;
-            padding-bottom: 3px;
+            color: $color-active-hover;
+            border-bottom: 2px solid $color-active-hover;
+            padding-bottom: 10px;
         }
     }
 }
 
+.hamburger { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
+    > span {
+    background-color: $color;
+    width: 26px;
+    height: 3px;
 
-
+        &:not(:last-child) {
+            margin-bottom: 3px;
+        }
+    }
+}

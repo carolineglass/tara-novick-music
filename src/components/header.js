@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 import headerStyles from './header.module.scss'
+import responsiveStyles from './layout.module.scss';
 
 const Header = () => {
     // const data = useStaticQuery(graphql`
@@ -23,7 +24,14 @@ const Header = () => {
             </h1>
 
             <nav className={headerStyles.nav}>
-                <ul className={headerStyles.ul}>
+            
+                <a href="#" className={`${responsiveStyles.hideForDesktop} ${headerStyles.hamburger}`}>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+
+                <ul className={`${responsiveStyles.hideForMobile} ${headerStyles.ul}`}>
                     <li>
                         <Link className={headerStyles.link} activeClassName={headerStyles.activeNavItem} to="/">
                             HOME
