@@ -19,7 +19,7 @@ $header-font: 'East Sea Dokdo';
             letter-spacing: 0.5rem;
             text-decoration: none;
             padding-left: 3rem;
-            transition: color 200ms ease-in-out;
+            transition: color 300ms ease-in-out;
 
             &:hover {
                 color: $color-active-hover;
@@ -41,7 +41,7 @@ $header-font: 'East Sea Dokdo';
     font-size: 1.2em;
     font-family: $header-font;
     font-weight: 100;
-    transition: color, border 200ms ease-in-out;
+    transition: color, border 300ms ease-in-out;
 
     &:hover {
         color: $color-active-hover;
@@ -78,10 +78,26 @@ $header-font: 'East Sea Dokdo';
     > span {
     background-color: $color;
     width: 26px;
-    height: 3px;
+    height: 2px;
+    transition: all 300ms ease-in-out;
+    transform-origin: center left;
 
         &:not(:last-child) {
-            margin-bottom: 3px;
+            margin-bottom: 5px;
         }
+    }
+}
+
+.open-hamburger {
+    > span:first-child {
+        transform: rotate(45deg);
+    }
+
+    > span:nth-child(2) {
+        opacity: 0;
+    }
+
+    > span:last-child {
+        transform: rotate(-45deg);
     }
 }

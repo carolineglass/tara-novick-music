@@ -1,18 +1,12 @@
-import React from 'react'
-import { Link, graphql, useStaticQuery } from 'gatsby'
+import React, {useState} from 'react'
+import { Link } from 'gatsby'
 import headerStyles from './header.module.scss'
 import responsiveStyles from './layout.module.scss';
 
 const Header = () => {
-    // const data = useStaticQuery(graphql`
-    //     query {
-    //       site {
-    //         siteMetadata {
-    //           title
-    //         }
-    //       }
-    //     }
-    // `)
+
+    const [open, setOpen] = useState(false)
+
     return (
         <header>
             <div className={headerStyles.divContainer}>
@@ -24,8 +18,8 @@ const Header = () => {
             </h1>
 
             <nav className={headerStyles.nav}>
-            
-                <a href="#" className={`${responsiveStyles.hideForDesktop} ${headerStyles.hamburger}`}>
+
+                <a onClick={() => {setOpen(!open)}} href="#" className={`${responsiveStyles.hideForDesktop} ${headerStyles.hamburger} ${headerStyles.openHamburger}`}>
                     <span></span>
                     <span></span>
                     <span></span>
