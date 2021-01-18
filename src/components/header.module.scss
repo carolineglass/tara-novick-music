@@ -41,11 +41,13 @@ $header-font: 'East Sea Dokdo';
     font-size: 1.2em;
     font-family: $header-font;
     font-weight: 100;
+    border: 1px solid #7e9fb000;
+    padding-bottom: 10px;
     transition: color, border 300ms ease-in-out;
 
     &:hover {
         color: $color-active-hover;
-        border-bottom: 2px solid $color-active-hover;
+        border-bottom: 1px solid $color-active-hover;
         padding-bottom: 10px;
     }
 }
@@ -63,7 +65,7 @@ $header-font: 'East Sea Dokdo';
 
         .active-nav-item {
             color: $color-active-hover;
-            border-bottom: 2px solid $color-active-hover;
+            border-bottom: 1px solid $color-active-hover;
             padding-bottom: 10px;
         }
     }

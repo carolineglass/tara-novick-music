@@ -1,9 +1,16 @@
+.music-div {
+    height: 90vh;
+    background: linear-gradient(white 10%, 40%, #14445c 90%);
+}
+
 .soundcloud-container {
-    display: flex;
-    margin: 50px;
-    justify-content: space-around;  
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .soundcloud-div {
   width: 40%;
+  margin: 2rem;
 }
