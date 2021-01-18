@@ -5,7 +5,7 @@ import responsiveStyles from './layout.module.scss';
 
 const Header = () => {
 
-    const [open, setOpen] = useState(false)
+    const [hamburgerOpen, setHamburgerOpen] = useState(false)
 
     return (
         <header>
@@ -19,7 +19,8 @@ const Header = () => {
 
             <nav className={headerStyles.nav}>
 
-                <a onClick={() => {setOpen(!open)}} href="#" className={`${responsiveStyles.hideForDesktop} ${headerStyles.hamburger} ${headerStyles.openHamburger}`}>
+                <a onClick={() => {setHamburgerOpen(!hamburgerOpen)}} href="#" 
+                className={ hamburgerOpen ? `${responsiveStyles.hideForDesktop} ${headerStyles.hamburger} ${headerStyles.openHamburger}` : `${responsiveStyles.hideForDesktop} ${headerStyles.hamburger}`}>
                     <span></span>
                     <span></span>
                     <span></span>
