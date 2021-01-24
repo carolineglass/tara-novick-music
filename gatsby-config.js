@@ -20,6 +20,8 @@ module.exports = {
           `muli\:400,400i,700,700i`,
           `Fira Sans`,
           `Anton`,
+          `Chivo`,
+          `Poppins`,
         ],
       display: 'swap',
       },

@@ -1,4 +1,4 @@
-$color: #a6b8c1;
+$color: #c6cfd3;
 $color-active-hover: #7e9fb0;
 $header-font: 'Anton';
 
@@ -7,7 +7,7 @@ $header-font: 'Anton';
     justify-content: space-between;
     height: 4.5rem;
     background-color: rgb(50, 48, 48);
-    box-shadow: 0 10px 6px -6px rgb(0, 0, 0);
+    box-shadow: 0px 10px 0px -6px rgb(21, 20, 20);
     position: relative;
     
     h1 {
@@ -102,7 +102,6 @@ $header-font: 'Anton';
     }
 }
 
-
 .overlay {
     display: none;
     position: fixed;
@@ -110,7 +109,7 @@ $header-font: 'Anton';
     bottom: 0px;
     left: 0px;
     right: 0px;
-    background: linear-gradient(grey,transparent);
+    background: linear-gradient(transparent, $color);
 }
 
 .fade-out {
