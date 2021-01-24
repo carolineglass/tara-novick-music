@@ -1,24 +1,24 @@
-$color: #14445c;
+$color: #a6b8c1;
 $color-active-hover: #7e9fb0;
-$header-font: 'East Sea Dokdo';
+$header-font: 'Anton';
 
 .div-container {
     display: flex;
     justify-content: space-between;
-    height: 10vh;
+    height: 4.5rem;
+    background-color: rgb(50, 48, 48);
+    box-shadow: 0 10px 6px -6px rgb(0, 0, 0);
+    position: relative;
     
     h1 {
         align-items: center;
-        margin: auto 0 auto 10px;
+        margin: auto 0 auto 1.25rem;
 
         .name {
             color: $color;
             font-family: $header-font;
-            font-weight: 900;
-            font-size: 3rem;
-            letter-spacing: 0.5rem;
+            font-size: 2rem;
             text-decoration: none;
-            padding-left: 3rem;
             transition: color 300ms ease-in-out;
 
             &:hover {
@@ -28,9 +28,7 @@ $header-font: 'East Sea Dokdo';
     }
 
     .nav {
-        // display: flex;
-        justify-content: center;
-        padding: 30px 40px;
+        padding: 1.875rem 1.25rem;
     }
 
 }
@@ -38,17 +36,17 @@ $header-font: 'East Sea Dokdo';
 .link {
     text-decoration: none;
     color: $color;
-    font-size: 1.2em;
+    font-size: 1rem;
     font-family: $header-font;
     font-weight: 100;
     border: 1px solid #7e9fb000;
-    padding-bottom: 10px;
+    padding-bottom: 1.25rem;
     transition: color, border 300ms ease-in-out;
 
     &:hover {
         color: $color-active-hover;
-        border-bottom: 1px solid $color-active-hover;
-        padding-bottom: 10px;
+        border-bottom: 2px solid $color-active-hover;
+        padding-bottom: 1.1rem;
     }
 }
 
@@ -62,12 +60,12 @@ $header-font: 'East Sea Dokdo';
 
     li:not(:last-child) {
         padding-right: 3rem;
+    }
 
-        .active-nav-item {
-            color: $color-active-hover;
-            border-bottom: 1px solid $color-active-hover;
-            padding-bottom: 10px;
-        }
+    .active-nav-item {
+        color: $color-active-hover;
+        border-bottom: 2px solid $color-active-hover;
+        padding-bottom: 1.1rem;
     }
 }
 
@@ -106,35 +104,51 @@ $header-font: 'East Sea Dokdo';
 
 
 .overlay {
-    animation: fade-out 300ms ease-in-out forwards;
     display: none;
     position: fixed;
-    top: 10vh;
+    top: 4.5rem;
     bottom: 0px;
     left: 0px;
     right: 0px;
-    background: linear-gradient(transparent, grey);
+    background: linear-gradient(grey,transparent);
 }
 
-.overlay {
+.fade-out {
+    display: block;
+    animation: fade-out 300ms ease-in-out forwards;
+}
+
+.overlay-open {
     display: block;
     animation: fade-in 300ms ease-in-out forwards;
 }
 
 @keyframes fade-in {
     from {
+        visibility: hidden;
+        opacity: 0;
+    }
+    1% {
+        visibility: visible;
         opacity: 0;
     }
     to {
+        visibility: visible;
         opacity: 1;
     }
 }
 
 @keyframes fade-out {
     from {
+        visibility: visible;
         opacity: 1;
     }
+    99% {
+        visibility: visible;
+        opacity: 0;
+    }
     to {
+        visibility: hidden;
         opacity: 0;
     }
 }

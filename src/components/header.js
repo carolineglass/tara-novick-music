@@ -6,25 +6,30 @@ import responsiveStyles from './layout.module.scss';
 const Header = () => {
 
     const [hamburgerOpen, setHamburgerOpen] = useState(false)
+
+    const handleHamburgerClick = (e) => {
+        setHamburgerOpen(!hamburgerOpen)
+    }
  
     return (
+
         <header>
             <div className={headerStyles.divContainer}>
 
             <h1>
-                <Link className={ `${headerStyles.name} ${responsiveStyles.name}` }to="/">
-                Tara Novick
+                <Link className={ `${headerStyles.name} ${responsiveStyles.name}`} to="/">
+                TARA NOVICK
                 </Link>
             </h1>
 
             <nav className={headerStyles.nav}>
             
-                <div className={ hamburgerOpen ? `${headerStyles.overlay}` : `${headerStyles.overlayOpen}`}>
+                <div className={ hamburgerOpen ? `${responsiveStyles.hideForDesktop} ${headerStyles.overlay} ${headerStyles.overlayOpen}` : `${responsiveStyles.hideForDesktop} ${headerStyles.overlay} ${headerStyles.fadeOut}`}>
 
                 </div>
 
 
-                <a onClick={() => {setHamburgerOpen(!hamburgerOpen)}} href="#" 
+                <a onClick={handleHamburgerClick} href="#" 
                 className={ hamburgerOpen ? `${responsiveStyles.hideForDesktop} ${headerStyles.hamburger} ${headerStyles.openHamburger}` : `${responsiveStyles.hideForDesktop} ${headerStyles.hamburger}`}>
                     <span></span>
                     <span></span>

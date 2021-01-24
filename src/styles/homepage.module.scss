@@ -1,46 +1,8 @@
-
 .home-div {
-  display: flex;
-  height: 90vh;
-  // background: linear-gradient(white 10%, 40%, #14445c 90%);
-  border: 1px solid;
-}
-
-.img-container {
-  padding: 3rem;
-}
-
-.img-container > img {
-  height: 600px;
-}
-
-.content {
-  padding: 3rem;
-
-  h1 {
-    font-size: 4rem;
-    font-weight: 100;
-    border-bottom: 2px solid burlywood;
-    color: black;
-  }
-}
-
-.titles {
-  color: rgb(0, 0, 0);
-  text-align: center;
-}
-
-.link {
-  text-decoration: none;
-  border-bottom: 2px solid;
-  margin-top: 20px;
-  display: inline-block;
-}
-
-.link:visited {
-  color: burlywood;
-}
-
-.link:hover {
-  color: rgba(222, 184, 135, 0.598);
+  height: 91.8vh;
+  background: url('../images/tara-main.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
