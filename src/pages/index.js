@@ -8,6 +8,12 @@ const IndexPage = () => {
   return (
       <Layout>
         <div className={homeStyles.homeDiv}>
+          <div className={homeStyles.contentDiv}>
+            <p>GUITARIST</p>
+            <p>COMPOSER</p>
+            <p>SONGWRITER</p>
+            <p>PRODUCER</p>
+          </div>
         </div>
       </Layout>
   )

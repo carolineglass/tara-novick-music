@@ -1,3 +1,5 @@
+$color: #c6cfd3;
+
 .home-div {
   height: 91.8vh;
   background: url('../images/tara-main.jpeg');
@@ -5,4 +7,22 @@
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+
+    .content-div {
+      border-radius: 20%;
+      display: flex;
+      flex-direction: column;
+      justify-content: right;
+      padding: 5% 0 0 50%;
+
+      p {
+        background-color: #7e9fb0a7;
+        display: flex;
+        color: $color;
+        font-size: 4.5rem;
+        font-family: 'Chivo';
+        margin: 0;
+      }
+
+    }
 }
