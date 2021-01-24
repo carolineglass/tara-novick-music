@@ -1,6 +1,10 @@
 import React from 'react'
+import VideoPlayer from 'react-video-js-player' 
+import CircleK from '../videos/circleK.mp4'
+
 import Layout from '../components/layout'
 import styled from 'styled-components'
+
 
 const Container = styled.div`
     margin: 3rem auto;
@@ -10,20 +14,24 @@ const Container = styled.div`
     align-items: center;
     justify-content: center;`
 
-const CircleKSection = styled.section`
-    border: 1px solid black;
-    padding: 10%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    `
+// const CircleKSection = styled.section`
+//     border: 1px solid black;
+//     padding: 10%;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+//     `
 
 const ProjectPage = () => {
+
+    const videoSrc = CircleK;
+    const poster = 'https://www.shoparboretum.com/application/files/2815/6632/9509/CircleK.jpg'
+
     return (
     <Layout>
         <Container>     
-            <CircleKSection>
+            <section>
                 <h1>Circle K</h1>
                 <div>
                     <div>
@@ -37,11 +45,15 @@ const ProjectPage = () => {
                         <h3>SOUNDCLOUD EMBED</h3>
                     </div>
                     <div>
-                        <h3>Youtube of project</h3>
-                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/undefined" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <VideoPlayer 
+                            src={videoSrc}
+                            poster={poster}
+                            width='720'
+                            height='420'
+                        />
                     </div>
                 </div>
-            </CircleKSection> 
+            </section> 
 
             <section>
                 <h1>Flex Calibur</h1>
@@ -57,7 +69,7 @@ const ProjectPage = () => {
                     </div>
                     <div>
                         <h3>Youtube of project</h3>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/HjJcMw2TlmU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="720" height="420" src="https://www.youtube.com/embed/HjJcMw2TlmU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </section> 

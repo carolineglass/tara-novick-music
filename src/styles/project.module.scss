@@ -1,58 +1,58 @@
-.section {
-    height: 100vh;
-    padding-top: 100px;
-}
+// .section {
+//     height: 100vh;
+//     padding-top: 100px;
+// }
 
-.section > h1 {
-    text-align: center;
-    position: relative;
-}
+// .section > h1 {
+//     text-align: center;
+//     position: relative;
+// }
 
-.container,
-.container2 {
-   display: flex;
-   flex-direction: row-reverse;
-   padding: 20px;
-}
+// .container,
+// .container2 {
+//    display: flex;
+//    flex-direction: row-reverse;
+//    padding: 20px;
+// }
 
-.container2 {
-   flex-direction: row;
-}
+// .container2 {
+//    flex-direction: row;
+// }
 
-.container > div,
-.container2 > div {
-    padding: 20px;
-}
+// .container > div,
+// .container2 > div {
+//     padding: 20px;
+// }
 
-.content2,
-.content1 > h3 {
-    text-align: center;
-}
+// .content2,
+// .content1 > h3 {
+//     text-align: center;
+// }
 
-.content2 {
+// .content2 {
 
-}
+// }
 
-.project1 {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/f0/Circle_K%2C_1255_Academy_Park_Lp%2C_Colorado_Springs%2C_CO.jpg');
-    background-position: bottom;
-    background-size: contain;
-    background-repeat: no-repeat;
-    left: 0;
-    top: 0;
-    z-index: 1;
-    background-color: hsla(0,0%,100%,0.60);
-    background-blend-mode: overlay;
-}
+// .project1 {
+//     background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/f0/Circle_K%2C_1255_Academy_Park_Lp%2C_Colorado_Springs%2C_CO.jpg');
+//     background-position: bottom;
+//     background-size: contain;
+//     background-repeat: no-repeat;
+//     left: 0;
+//     top: 0;
+//     z-index: 1;
+//     background-color: hsla(0,0%,100%,0.60);
+//     background-blend-mode: overlay;
+// }
 
-.project2 {
-    background-image: url('https://worldlyvoices.com/wp-content/uploads/2020/01/voiceover-artist.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    left: 0;
-    top: 0;
-    z-index: 1;
-    background-color: hsla(0,0%,100%,0.60);
-    background-blend-mode: overlay;
-}
+// .project2 {
+//     background-image: url('https://worldlyvoices.com/wp-content/uploads/2020/01/voiceover-artist.jpg');
+//     background-position: center;
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     left: 0;
+//     top: 0;
+//     z-index: 1;
+//     background-color: hsla(0,0%,100%,0.60);
+//     background-blend-mode: overlay;
+// }
