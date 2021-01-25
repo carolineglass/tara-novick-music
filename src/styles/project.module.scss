@@ -1,8 +1,22 @@
-// .section {
-//     height: 100vh;
-//     padding-top: 100px;
-// }
 
+h3 {
+    color: #7e9fb0a7;
+    font-size: 4.5rem;
+    font-family: 'Chivo';
+    margin: 0;
+}
+
+
+.video-js {
+    display: block; 
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.vjs-poster {
+    border-radius: 10px;
+}
 // .section > h1 {
 //     text-align: center;
 //     position: relative;
