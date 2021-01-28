@@ -1,12 +1,13 @@
 $color: #c6cfd3;
 $color-active-hover: #7e9fb0;
 $header-font: 'Anton';
+$menu-color: rgb(50, 48, 48);
 
 .div-container {
     display: flex;
     justify-content: space-between;
     height: 4.5rem;
-    background-color: rgb(50, 48, 48);
+    background-color: $menu-color;
     box-shadow: 0px 10px 5px -10px rgb(21, 20, 20);
     position: relative;
     
@@ -109,7 +110,7 @@ $header-font: 'Anton';
     bottom: 0px;
     left: 0px;
     right: 0px;
-    background: linear-gradient(transparent, $color);
+    background: linear-gradient($color, transparent);
 }
 
 .fade-out {
@@ -120,6 +121,25 @@ $header-font: 'Anton';
 .overlay-open {
     display: block;
     animation: fade-in 300ms ease-in-out forwards;
+}
+
+.overlay-menu {
+    background: $menu-color;
+    padding: 1.625rem 0px;
+    margin-top: 1.5rem;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%; 
+    transform: translate(-50%);
+    width: calc(100% - 3rem); 
+
+    a {
+        text-decoration: none;
+        color: grey;
+        padding: 0.625rem;
+        display: block;
+        text-align: center;
+    }
 }
 
 @keyframes fade-in {

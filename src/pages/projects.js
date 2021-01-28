@@ -4,7 +4,6 @@ import VideoPlayer from 'react-video-js-player'
 import CircleK from '../videos/circleK.mp4'
 import Layout from '../components/layout'
 
-
 const ProjectPage = () => {
 
     const videoSrc = CircleK;
@@ -13,48 +12,47 @@ const ProjectPage = () => {
     return (
     <Layout>
         <div className={projectStyles.container}>
+            <div>
                 <div>
-                    <div>
-                        <h3>Circle K</h3>
-                        <p>
-                        commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient 
-                        montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, 
-                        sem. Nulla consequat massa quis enim. Donec pede justo, fringilla 
-                        vel, aliquet nec, vulputate eget, arcu.
-                        </p>
-                    </div>
-                    <div>
-                        <VideoPlayer 
-                            className={projectStyles.videoJs}
-                            src={videoSrc} 
-                            poster={poster} 
-                            width='720' 
-                            height='420'
-                        />
-                    </div>
+                    <h3>Circle K</h3>
+                    <p>
+                    commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient 
+                    montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, 
+                    sem. Nulla consequat massa quis enim. Donec pede justo, fringilla 
+                    vel, aliquet nec, vulputate eget, arcu.
+                    </p>
                 </div>
 
-            <section>
                 <div>
-                    <div>
-                        <h3>FLEX CALIBUR</h3>
-                        <p>
-                        commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient 
-                        montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, 
-                        sem. Nulla consequat massa quis enim. Donec pede justo, fringilla 
-                        vel, aliquet nec, vulputate eget, arcu.
-                        </p>
-                    </div>
-                    <div>
-                        <iframe width="720" height="420" src="https://www.youtube.com/embed/HjJcMw2TlmU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
+                    <VideoPlayer 
+                        className={projectStyles.videoJs}
+                        src={videoSrc} 
+                        poster={poster} 
+                        width='720' 
+                        height='420'
+                    />
                 </div>
-            </section> 
+            </div>
 
-            <section>
+            <div>
+                <div>
+                    <h3>Flex Calibur</h3>
+                    <p>
+                    commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient 
+                    montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, 
+                    sem. Nulla consequat massa quis enim. Donec pede justo, fringilla 
+                    vel, aliquet nec, vulputate eget, arcu.
+                    </p>
+                </div>
+
+                <div>
+                    <iframe width="720" height="420" src="https://www.youtube.com/embed/HjJcMw2TlmU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div>
                 <h3>Film/TV Score</h3>
-            </section>
-
+            </div>
         </div>  
     </Layout>
     )

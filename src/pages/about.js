@@ -7,11 +7,13 @@ import aboutStyles from '../styles/about.module.scss'
 const AboutPage = () => {
     return (
         <Layout>
-            <h3>About Tara</h3>
             <div className={aboutStyles.container}>
-                {/*<div className={aboutStyles.imgContainer}>
+                <h3>About Tara</h3>
+                
+                <div className={aboutStyles.imgContainer}>
                     <img src={AboutImg} className={aboutStyles.img} alt="tara in concert"></img> 
-        </div>*/}
+                </div>
+
                 <div className={aboutStyles.aboutText}>
                     <p>Tara Novick was conceived during an acid trip in Big Sur at the end of the 1960’s, a fitting start to a life in rock and roll.
                     His early childhood years were then spent vagabonding with his parents in Europe and Northern Africa, and in Marakesh, Morrocco, at age four, Tara got his first instrument, a three- stringed berber guitar.
